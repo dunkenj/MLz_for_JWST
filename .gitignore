@@ -1,3 +1,8 @@
 data/dja_cats/**
 data/*.txt
 default/jwst_gpz_basic*
+
+# Exclude symlinks (EAZY templates and filters)
+FILTER.RES.latest
+templates
+Users
